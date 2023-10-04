@@ -177,7 +177,7 @@ footer img {
   width: 30px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 840px) {
   nav {
     display: flex;
     justify-content: space-evenly;
