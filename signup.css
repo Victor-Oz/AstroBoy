@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navigation bar styles */
+header {
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Center the signup container */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:black;
+}
+
+/* Style the form */
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: yellow;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
